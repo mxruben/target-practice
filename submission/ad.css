@@ -1,0 +1,80 @@
+html,
+body {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#overlay-container {
+    width: 960px;
+    height: 540px;
+}
+
+#instructions {
+    display: none;
+    width: 92%;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 4%;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/* Your style here... (feel free to remove this example styling) */
+#skip {
+    display: none;
+    /* Hidden until ad starts */
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    padding: 10px 18px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid black;
+    border-right-width: 0;
+    font-size: 1.2rem;
+    border-radius: 4px 0 0 4px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#timer {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    padding: 10px 18px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid black;
+    border-right-width: 0;
+    font-size: 1.2rem;
+    border-radius: 4px 0 0 4px;
+    color: white;
+}
+
+#counter {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    padding: 10px 18px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid black;
+    border-left-width: 0;
+    font-size: 1.2rem;
+    border-radius: 0 4px 4px 0;
+    color: white;
+}
+
+#target {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
